@@ -131,13 +131,11 @@ class AuthRepository {
           code: 401,
         };
       }
-
       return {
         message: "Houve um erro",
         code: 500,
       };
     }
-
     return {
       message: "Token inválido",
       code: 404,
